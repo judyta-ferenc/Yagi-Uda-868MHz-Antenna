@@ -1,8 +1,8 @@
-# 📡 3D-Printed Yagi-Uda Antenna for 868 MHz
+# 3D-Printed Yagi-Uda Antenna for 868 MHz
 
 This directional Yagi-Uda antenna was designed, simulated, and constructed as a key technical component of an educational radio-localization field game titled **"Fox Hunting"**.
 
-### 📏 1. Antenna Dimensions
+### 1. Antenna Dimensions
 The geometry was calculated using the **DL6WU** algorithm and then optimized in **CST Studio** for the 868 MHz LoRa receiver.
 * **Center Frequency:** 868 MHz ($\lambda = 345\text{ mm}$)
 * **Total Elements:** 7 elements, including 1 reflector, 1 dipole, and 5 directors
@@ -11,7 +11,7 @@ The geometry was calculated using the **DL6WU** algorithm and then optimized in 
 
 *Full dimensions are stored in the `antenna_dimensions.txt` file.*
 
-### 💻 2. CST Simulation
+### 2. CST Simulation
 The antenna was modeled and simulated in **CST Microwave Studio** to verify its performance before manufacturing.
 
 * **Gain:** $12.06\text{ dBi}$
@@ -31,7 +31,7 @@ The antenna was modeled and simulated in **CST Microwave Studio** to verify its 
 #### S-Parameters ($S_{11}$ Return Loss):
 ![S11 Plot](S1,1.png)
 
-### 🛠️ 3. Final Construction
+### 3. Final Construction
 * **Boom & Handle:** 3D-printed to create a simple, non-conductive, and lightweight structure, making it comfortable to hold and carry during the "Fox Hunting" field game.
 * **Elements:** Made from copper wire with an exact 2 mm diameter, precision-cut to the calculated lengths and pressed directly into the 3D-printed frame.
 
@@ -40,7 +40,7 @@ The antenna was modeled and simulated in **CST Microwave Studio** to verify its 
   <img src="antenna.jpg" alt="Physical Antenna" width="50%">
 </p>
 
-### 📊 4. VNA Measurements
+### 4. VNA Measurements
 The final antenna parameters were verified using a **Vector Network Analyzer (VNA)**:
 
 * **Best Match Frequency (896 MHz):** **$-20.56\text{ dB}$**
