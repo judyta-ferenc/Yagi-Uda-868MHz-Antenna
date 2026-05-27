@@ -36,7 +36,9 @@ The antenna was modeled and simulated in **CST Microwave Studio** to verify its 
 * **Elements:** Made from copper wire with an exact 2 mm diameter, precision-cut to the calculated lengths and pressed directly into the 3D-printed frame.
 
 #### Final 3D-Printed Antenna:
-![Physical Antenna](antenna.jpg)
+<p align="center">
+  <img src="antenna.jpg" alt="Physical Antenna" width="50%">
+</p>
 
 ### 📊 4. VNA Measurements
 The final antenna parameters were verified using a **Vector Network Analyzer (VNA)**:
