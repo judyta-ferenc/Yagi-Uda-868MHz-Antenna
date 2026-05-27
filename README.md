@@ -28,6 +28,8 @@ The antenna was modeled and simulated in **CST Microwave Studio** to verify its 
 #### 3D Radiation Pattern:
 ![Farfield 3D](3D.png)
 
+#### Simulated $S_{11}$ Return Loss:
+![S11 Plot](S1,1.png)
 
 ### 3. Final Construction
 * **Boom & Handle:** 3D-printed to create a simple, non-conductive, and lightweight structure, making it comfortable to hold and carry during the "Fox Hunting" field game.
@@ -45,8 +47,6 @@ The final antenna parameters were verified using a **Vector Network Analyzer (VN
 * **Operating Frequency (868 MHz):** **$-16.44\text{ dB}$**
 * **Result:** The antenna was tested with the rest of the system and works perfectly, providing a clear and reliable signal during the game.
 
-#### Simulated $S_{11}$ Return Loss (CST Studio):
-![S11 Plot](S1,1.png)
 
-#### Measured $S_{11}$ Return Loss (VNA):
-![VNA Measurement](vna_plot.png)
+#### Comparison of Simulated and Measured $S_{11}$ Return Loss:
+![VNA Measurement](compare_plot.png)
