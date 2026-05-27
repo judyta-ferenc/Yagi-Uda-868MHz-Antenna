@@ -17,7 +17,7 @@ The antenna was modeled and simulated in **CST Microwave Studio** to verify its 
 * **Gain:** $12.06\text{ dBi}$
 * **3 dB Angular Width:** $44.9^\circ$
 * **Side Lobe Level:** $-21.7\text{ dB}$
-* **$S_{11}$ (at 868 MHz):** $\approx -17\text{ dB}$
+* **$S_{11}$ (at 868 MHz):** $-16.99\text{ dB}$
 
 #### Antenna Model in CST:
 ![CST Model](model_antenna_1.png)
