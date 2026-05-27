@@ -1,0 +1,41 @@
+Driven element (dipole) form: Straight
+Element shape: Round
+-------------------------------------------------------------
+Frequency f: 868 MHz
+Wavelength λ: 345 mm
+Element diameter d: 2 mm
+Boom side D: 10 mm
+
+Total number of elements: 7
+Boom length: 416 mm
+Gain: 12 dBi (approx.) 				
+-------------------------------------------------------------
+Reflector length R: 168 mm
+Reflector position R = 0
+-------------------------------------------------------------
+Dipole length F: 160 mm
+Dipole position F (R-F): 69.1 mm
+Gap at connection point g = 3 mm
+-------------------------------------------------------------
+Length D1: 151 mm
+Director position D1 (R-D1): 95 mm
+Distance F-D1: 25.9 mm
+-------------------------------------------------------------
+Length D2: 149 mm
+Director position D2 (R-D2): 157 mm
+Distance D1-D2: 62.2 mm
+-------------------------------------------------------------
+Length D3: 147 mm
+Director position D3 (R-D3): 231 mm
+Distance D2-D3: 74.3 mm
+-------------------------------------------------------------
+Length D4: 145 mm
+Director position D4 (R-D4): 318 mm
+Distance D3-D4: 86.3 mm
+-------------------------------------------------------------
+Length D5: 144 mm
+Director position D5 (R-D5): 414 mm
+Distance D4-D5: 96.7 mm
+-------------------------------------------------------------
+Elements on a dielectric boom.
+Boom-correction is not taken into account.
