@@ -9,7 +9,7 @@ The geometry was calculated using the **DL6WU** algorithm and then optimized in 
 * **Boom Length:** 416 mm (compact for handheld field use).
 * **Element Diameter:** 2 mm round copper wire.
 
-*Full dimensions are stored in the `antenna_dimensions.txt` file.*
+*Full dimensions are stored in the `data/antenna_dimensions.txt` file.*
 
 ### 2. CST Simulation
 The antenna was modeled and simulated in **CST Microwave Studio** to verify its performance before manufacturing.
@@ -20,16 +20,16 @@ The antenna was modeled and simulated in **CST Microwave Studio** to verify its 
 * **$S_{11}$ (at 868 MHz):** $-16.99\text{ dB}$
 
 #### Antenna Model in CST:
-![CST Model](model_antenna_1.png)
+![CST Model](screenshots/cst_model.png)
 
 #### Farfield Radiation Pattern (2D Polar Plot):
-![Farfield 2D](2D.png)
+![Farfield 2D](screenshots/farfield_2d.png)
 
 #### 3D Radiation Pattern:
-![Farfield 3D](3D.png)
+![Farfield 3D](screenshots/farfield_3d.png)
 
 #### Simulated $S_{11}$ Return Loss:
-![S11 Plot](S1,1.png)
+![S11 Plot](screenshots/s11_simulation.png)
 
 ### 3. Final Construction
 * **Boom & Handle:** 3D-printed to create a simple, non-conductive, and lightweight structure, making it comfortable to hold and carry during the "Fox Hunting" field game.
@@ -37,7 +37,7 @@ The antenna was modeled and simulated in **CST Microwave Studio** to verify its 
 
 #### Final 3D-Printed Antenna:
 <p align="center">
-  <img src="antenna.jpg" alt="Physical Antenna" width="50%">
+  <img src="measurements/final_antenna.jpg" alt="Physical Antenna" width="50%">
 </p>
 
 ### 4. VNA Measurements
@@ -49,4 +49,4 @@ The final antenna parameters were verified using a **Vector Network Analyzer (VN
 
 
 #### Comparison of Simulated and Measured $S_{11}$ Return Loss:
-![VNA Measurement](compare_plot.png)
+![VNA Measurement](measurements/vna_s11_comparison.png)
